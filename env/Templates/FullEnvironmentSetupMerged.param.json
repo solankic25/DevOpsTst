@@ -1,0 +1,39 @@
+﻿{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "WebsiteName": {
+            "value": "piyushtestwebsitefordevops"
+        },
+        "PartsUnlimitedServerName": {
+            "value": "puserverfesmtst"
+        },
+        "PartsUnlimitedHostingPlanName": {
+            "value": "puhostingplanfesmtest"
+        },
+        "CdnStorageAccountName": {
+            "value": ""
+        },
+        "CdnStorageContainerName": {
+            "value": ""
+        },
+        "CdnStorageAccountNameForDev": {
+            "value": ""
+        },
+        "CdnStorageContainerNameForDev": {
+            "value": ""
+        },
+        "CdnStorageAccountNameForStaging": {
+            "value": ""
+        },
+        "CdnStorageContainerNameForStaging": {
+            "value": ""
+        },
+        "PartsUnlimitedServerAdminLoginPassword": {
+            "value": "Piyush19841985"
+        },
+        "PartsUnlimitedServerAdminLoginPasswordForTest": {
+            "value": "Piyush19841985"
+        }
+    }
+}
